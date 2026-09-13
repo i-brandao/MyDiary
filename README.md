@@ -8,7 +8,7 @@ Versão atual: **0.2**
 
 Projeto em desenvolvimento.
 
-## 🎯 Objetivo
+## Objetivo
 
 O MyDiary está sendo desenvolvido como um projeto de aprendizado em Java.
 
