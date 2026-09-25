@@ -1,88 +1,94 @@
 # MyDiary
 
-Projeto desenvolvido em Java com o objetivo de praticar programação e desenvolver, de forma gradual, um sistema de acompanhamento e registro pessoal.
+Um projeto em Java desenvolvido para praticar programação e construir, passo a passo, um sistema simples de acompanhamento de medições pessoais.
 
-## Status
-
-Versão atual: **0.2**
-
-Projeto em desenvolvimento.
-
-## Objetivo
-
-O MyDiary está sendo desenvolvido como um projeto de aprendizado em Java.
-
-A ideia é evoluir o sistema gradualmente, aplicando os conhecimentos adquiridos durante os estudos de programação.
-
-## Funcionalidades atuais
-
-### Versão 0.2
-
-- Menu inicial
-- Cadastro de usuário
-- Registro de:
-  - Nome
-  - Idade
-  - Altura
-  - Objetivo
-- Validação básica dos dados
-- Confirmação do cadastro
-- Possibilidade de refazer o cadastro
-- Registro de medições
-- Registro de peso
-- Registro de observações
-- Registro automático da data
-- Cálculo de IMC
-- Visualização de resumo dos dados
-
-## Tecnologias
-
-- Java
-- Scanner
-- LocalDate
-- Terminal/Console
-
-## Conceitos praticados
-
-Nesta versão foram praticados e reforçados conceitos de Java, como:
-
-- Variáveis
-- Tipos de dados
-- Strings
-- Entrada e saída de dados
-- `if` / `else`
-- `switch` / `case`
-- `while`
-- `for`
-- `break`
-- `continue`
-- Métodos
-- Parâmetros
-- Operações matemáticas
-- Validação de dados
-- `LocalDate`
-
-## Próximos passos
-
-O projeto será desenvolvido gradualmente.
-
-Algumas funcionalidades planejadas:
-
-- [ ] Melhorar as validações
-- [ ] Histórico de registros
-- [ ] Armazenamento de múltiplas medições
-- [ ] Cálculos e estatísticas
-- [ ] Comparação entre registros
-- [ ] Programação Orientada a Objetos
-- [ ] Persistência de dados
-- [ ] Banco de dados
-- [ ] Interface gráfica
-- [ ] API
+> **Versão atual: 0.3**
 
 ## Sobre o projeto
 
-O MyDiary não tem como objetivo ser desenvolvido todo de uma vez.
+O **MyDiary** é um projeto de aprendizado desenvolvido em Java. A ideia é criar, de forma gradual, um sistema capaz de registrar medições, calcular o IMC e manter um histórico de pesos.
 
-Cada versão será utilizada para aprender novos conceitos de programação e aplicá-los na prática.
+O projeto está sendo desenvolvido inicialmente de forma simples, utilizando apenas Java básico, para que cada nova versão também represente uma etapa do meu aprendizado na linguagem.
 
-A estrutura e as tecnologias do projeto serão evoluídas conforme novos conhecimentos forem adquiridos.
+## Funcionalidades atuais
+
+Na versão **0.3**, o MyDiary possui:
+
+* Cadastro básico de usuário
+
+  * Nome
+  * Idade
+  * Altura
+  * Objetivo
+* Validação de idade e altura
+* Registro de peso
+* Validação de peso
+* Histórico de pesos
+* Cálculo do IMC
+* Registro de observação
+* Resumo da última medição
+* Exibição da data atual
+* Menu interativo pelo terminal
+* Opção para encerrar o programa
+
+## Tecnologias utilizadas
+
+* **Java**
+* `Scanner` para entrada de dados
+* `ArrayList` para armazenamento do histórico
+* `LocalDate` para trabalhar com datas
+
+## Conceitos praticados
+
+Este projeto está sendo utilizado para praticar conceitos fundamentais de Java, como:
+
+* Variáveis e tipos de dados
+* `String`, `int` e `double`
+* Entrada de dados com `Scanner`
+* Condicionais `if/else`
+* Estruturas `while` e `for`
+* `switch/case`
+* Métodos
+* `ArrayList`
+* Operações matemáticas
+* Validação de dados
+* Manipulação básica de datas
+
+## Exemplo do menu
+
+```text
+=======================
+Bem vindo(a) ao MyDiary
+Essa e a versão 0.3
+=======================
+
+O que deseja fazer?
+[1] Fazer cadastro
+[2] Registrar medição
+[3] Calcular IMC
+[4] Ver resumo
+[5] Ver histórico
+[6] Sair
+```
+
+## Próximos passos
+
+O projeto continuará sendo desenvolvido gradualmente.
+
+Entre os próximos objetivos estão:
+
+* Melhorar o armazenamento dos dados do usuário
+* Associar data, peso e observação a cada medição
+* Melhorar o histórico de medições
+* Comparar diferentes medições
+* Calcular estatísticas do histórico
+* Registrar outras medidas corporais
+* Organizar melhor a estrutura do projeto
+* Introduzir classes e objetos
+* Futuramente adicionar uma interface gráfica e gráficos
+
+## Objetivo do projeto
+
+Mais do que criar um sistema completo, o objetivo do MyDiary é servir como um **projeto prático para aprender Java**, permitindo aplicar novos conceitos conforme o desenvolvimento avança.
+
+Cada versão representa uma etapa do aprendizado e da evolução do projeto.
